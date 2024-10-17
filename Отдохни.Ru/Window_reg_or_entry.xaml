@@ -1,0 +1,18 @@
+﻿<Window x:Class="Отдохни.Ru.Window_reg_or_entry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Отдохни.Ru"
+        mc:Ignorable="d"
+        Title="Window_reg_or_entry" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Label Height="100" HorizontalAlignment="Center" VerticalContentAlignment="Center">Вы являетесь зарегистрированным пользователем?</Label>
+            <ListBox Height="50" HorizontalAlignment="Center">
+                <RadioButton x:Name="rb_yes" Checked="rb_yes_Checked">Да</RadioButton>
+                <RadioButton x:Name="rb_no" Checked="rb_no_Checked">Нет</RadioButton>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
